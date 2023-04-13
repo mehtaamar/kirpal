@@ -1,0 +1,168 @@
+body{
+  color: gray;
+}
+.social li{
+  display: inline;
+  padding-left: 5%;
+}
+
+a {
+  color: gray;
+  font-size: 16px;
+}
+
+.header {
+float:left;
+  width: 90%;
+margin-left: 5%;
+
+
+}
+
+.header h1 {
+  font-size: 25px;
+    padding: 5%;
+}
+
+.social {
+  padding: 5% 0 0 10%;
+}
+
+.social a:hover{
+  color:#FDAEAE;
+}
+
+.social i{
+  font-size: 25px;
+}
+
+#nav ul
+{
+list-style-type:none;
+}
+#nav ul li
+{
+float:left;
+padding:2% 0 0 10%;
+}
+
+#nav ul li a {
+text-decoration:none;
+font-size:20px;
+color:grey;
+}
+
+
+
+.carousel-caption {
+    position: absolute;
+    right: 15%;
+    bottom: 40%;
+    left: 0%;
+    top: 25%;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+    text-align: left;
+  }
+
+.carousel-control-prev{
+  top: 70%!important;
+  margin-left: 20%;
+}
+
+.carousel-control-next{
+  top: 70%!important;
+  margin-right: 20%;
+}
+
+  .line {
+    padding: 4%;
+    border-left: 2px solid gray;
+    margin-left: 30%;
+    text-align: left;
+  }
+
+.main a {
+  background-color: #D36F6F;
+  width: 30%;
+  height: 25%;
+}
+
+.fas {
+  color: white;
+}
+
+img {
+  width: 100%;
+}
+
+.second.row {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.text p{
+  font-size: 18px;
+}
+
+ button {
+      margin-left: 40%;
+      background-color: #D36F6F;
+      color: white;
+      padding: 2% 9% 2% 9%;
+}
+
+.text {
+  border-left: 3px solid #D36F6F;
+  padding-left: 5%;
+  margin-left: 5%;
+}
+
+.photo{
+  display: inline-block;
+position: relative;
+}
+
+.third button{
+  margin-left: 30%;
+}
+
+.third .line, .fourth .line {
+  border-left: 3px solid #D36F6F;
+  margin-left: 0;
+}
+
+.footer {
+  background-color: #D36F6F;
+
+
+}
+
+.text_footer{
+  padding: 5%;
+  color: white;
+}
+
+.footer .row  {
+  margin-right: 0;
+ margin-left: 0;
+}
+
+.footer a{
+  color: white;
+}
+
+@media (max-width: 599px) and (min-width: 0px) {
+
+  .main .line{
+    margin-left: 0;
+    padding: 0;
+  }
+
+  .main h3{
+    font-size: 14px;
+    line-height: 0.5;
+  }
+}
